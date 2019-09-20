@@ -1,29 +1,6 @@
-# vue-cli-demp
+# 基于vue.js 构建一个好用的富文本编辑器
 
-## Project setup
+### 使用
 ```
-yarn install
+npm install vue-tag-ui
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
