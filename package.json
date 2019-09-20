@@ -1,11 +1,15 @@
 {
-  "name": "vue-cli-demp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-tag-ui",
+  "version": "0.0.1", 
+  "main": "lib/vue-tag-textarea.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": "joimouse <joinmouse@foxmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-tag-textarea --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
